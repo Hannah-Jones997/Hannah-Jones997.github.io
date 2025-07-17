@@ -1,0 +1,29 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+}
+
+#logo {
+    max-width: 2.5rem;
+    max-height: 2rem;
+    align-items: flex-end;
+}
+
+#vl {
+  border-left: 0.15rem solid grey;
+  height: 1rem;
+}
+
+
+/* To change later, adaptive to small screen sizes */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
