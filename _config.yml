@@ -1,0 +1,8 @@
+title: "Hub"
+baseurl: ""
+url: "Hannah-Jones997.github.io"
+markdown: kramdown
+
+exclude:
+  - README.markdown
+  - node_mo
