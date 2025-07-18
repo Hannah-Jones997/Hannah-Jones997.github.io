@@ -2,6 +2,7 @@
 layout: default
 title: Home
 ---
+<link rel="stylesheet" href="../css/index.css">
 <div id="title">
     <h1>IBM Messaging</h1>
     <p>Welcome to IBM Messaging on GitHub. Here we provide our collection of IBM-Messaging collateral for you to use and share. Please star repositories so we can see the collateral you find useful.</p>

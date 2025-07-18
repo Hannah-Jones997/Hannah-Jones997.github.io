@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@carbon/grid": "^11.39.0",
+    "@carbon/web-components": "^2.34.0"
+  }
+}
