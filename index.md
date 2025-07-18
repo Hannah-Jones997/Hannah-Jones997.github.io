@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hub</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
-    <link rel="stylesheet" type="text/css" href="../css/universal.css">
-</head>
-<body>
-
-{% include header.html %}
-
+---
+layout: default
+title: Home
+---
 <div id="title">
     <h1>Hub</h1>
     <p>Welcome to the hub</p>
@@ -29,6 +20,3 @@
 <div>
     <button>Click here to see more</button>
 </div>
-
-</body>
-</html>
