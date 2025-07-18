@@ -3,8 +3,8 @@ layout: default
 title: Home
 ---
 <div id="title">
-    <h1>Hub</h1>
-    <p>Welcome to the hub</p>
+    <h1>IBM Messaging</h1>
+    <p>Welcome to IBM Messaging on GitHub. Here we provide our collection of IBM-Messaging collateral for you to use and share. Please star repositories so we can see the collateral you find useful.</p>
 </div>
 
 <h3>Our learning resources</h3>

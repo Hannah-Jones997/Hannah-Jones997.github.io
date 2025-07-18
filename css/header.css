@@ -21,7 +21,7 @@
 }
 
 
-/* To change later, adaptive to small screen sizes */
+/* To change later, adaptive to small screen sizes
 @media screen and (max-width: 500px) {
   .header a {
     float: none;
@@ -31,4 +31,4 @@
   .header-right {
     float: none;
   }
-}
+} */
