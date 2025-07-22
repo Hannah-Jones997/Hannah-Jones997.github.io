@@ -1,3 +1,7 @@
-body {
+#main {
+    padding: 2rem;
+}
+
+#title {
     padding: 2rem;
 }
