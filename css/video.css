@@ -1,0 +1,21 @@
+#title {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+cds-tab::part(content) {
+  font-size: 1.25rem;
+}
+
+#videosContainer {
+    background-color: #f4f4f4;
+    max-width: 50%;
+}
+
+.videoHr {
+    margin-top: 0;
+}

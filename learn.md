@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learn
-permalink: /learn/
+permalink: /Learn/
 ---
 
 <div id="">
