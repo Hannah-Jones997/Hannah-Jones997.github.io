@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: Learn
+permalink: /learn/
 ---
 
 <div id="">
