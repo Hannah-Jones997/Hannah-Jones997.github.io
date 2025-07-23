@@ -1,0 +1,63 @@
+basics:
+  - title: "IBM MQ: What is it, and why do developers need it?"
+    url: "https://www.youtube.com/embed/ynjc5GMQeRA?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY"
+
+  - title: "Install IBM MQ in a container | Set up messaging software in 4 minutes (Docker)"
+    url: "https://www.youtube.com/embed/xBX1P9OUteg?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&index=2"
+
+  - title: "Event-driven & exactly-once messaging to queues & topics | Objects for messaging networks | IBM MQ"
+    url: "https://www.youtube.com/embed/zwRvUmIgRJ0?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY"
+
+  - title: "Understanding enterprise messaging patterns | Queues, subscribers, request-response | IBM MQ"
+    url: "https://www.youtube.com/embed/U03FslufqxY?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&index=4"
+
+  - title: "IBM MQ Console | Control your entire messaging architecture from your web browser"
+    url: "https://www.youtube.com/embed/gp_ep-xYWfU?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&index=5"
+
+  - title: "Messaging APIs | How messaging fits into your code | IBM MQ"
+    url: "https://www.youtube.com/embed/U8XCxUYeY_k?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&index=6"
+
+advanced:
+  - title: "Scalability via IBM MQ Uniform Clustering"
+    url: "https://www.youtube.com/embed/aFygwPuBuQU?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq"
+
+  - title: "Assured message delivery with IBM MQ NativeHA"
+    url: "https://www.youtube.com/embed/NLLfkzxKFA0?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&index=2"
+
+  - title: "IBM MQ: The CCDT, explained"
+    url: "https://www.youtube.com/embed/vJcmDzC4ItM?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&index=3"
+
+  - title: "IBM MQ: Request-response variations"
+    url: "https://www.youtube.com/embed/gqIoBO9o86A?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&index=4"
+
+  - title: "IBM MQ: An introduction to Native HA Cross-Region Replication"
+    url: "https://www.youtube.com/embed/xvukMdiYb-0?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&index=5"
+
+  - title: "IBM MQ: CCDTs for Uniform Clusters"
+    url: "https://www.youtube.com/embed/Ezr2ViznZ50?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&index=6"
+
+more:
+  - title: "Enterprise Messaging: Unlocking the power of communication for your business"
+    url: "https://www.youtube.com/embed/3bgyAH2m3KI?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u"
+
+  - title: "IBM MQ Messaging Objects: A fun guide to the building blocks of messaging"
+    url: "https://www.youtube.com/embed/SQKnKKnaGWk?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&index=2"
+
+  - title: "IBM MQ Point-to-Point Messaging Pattern: Efficient and reliable communication"
+    url: "https://www.youtube.com/embed/_KvPGhXrJ0M?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&index=3"
+
+  - title: "Publish/Subscribe Messaging: Stay connected with real-time updates"
+    url: "https://www.youtube.com/embed/BXEHHZYyqXc?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&index=4"
+
+  - title: "Request/Response Messaging: Ensuring seamless communication and confirmation"
+    url: "https://www.youtube.com/embed/2Puq7Jcqc34?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&index=5"
+
+  - title: "How IBM MQ on z/OS stores messages"
+    url: "https://www.youtube.com/embed/AuVzIVasCZM?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&index=6"
+
+  - title: "How IBM MQ on z/OS works together with Kafka"
+    url: "https://www.youtube.com/embed/51hsOgVqUcw?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&index=7"
+
+  - title: "What's inside a queue manager running on z/OS?"
+    url: "https://www.youtube.com/embed/AD__ToQ2bwU?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&index=8"
+

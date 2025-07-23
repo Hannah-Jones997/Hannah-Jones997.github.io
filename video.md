@@ -18,62 +18,54 @@ permalink: /Videos/
         </div>
         <div id="videosContainer">
             <style>
-                .cds-ce-demo-devenv--tab-panels{flex:1;align-self:stretch;padding:1rem;}
+                .cds-ce-demo-devenv--tab-panels{flex:1;align-self:stretch;padding:3rem;overflow:scroll;max-height:65vh;border-color: #f4f4f4;border-style: solid; border-width:0.5rem;}
             </style>
-            <cds-tabs value="all">
-                <cds-tab id="basics" target="panel-basics" value="basics">
-                    Basics
-                </cds-tab>
-                <cds-tab id="advaced" target="panel-advanced" value="advanced">
-                    Advanced
-                </cds-tab>
-                <cds-tab id="more" target="panel-more" value="more">
-                    More
-                </cds-tab>
-            </cds-tabs>
+            <div id="tabs">
+                <cds-tabs value="basics">
+                    <cds-tab id="basics" target="panel-basics" value="basics">
+                        Basics
+                    </cds-tab>
+                    <cds-tab id="advaced" target="panel-advanced" value="advanced">
+                        Advanced
+                    </cds-tab>
+                    <cds-tab id="more" target="panel-more" value="more">
+                        More
+                    </cds-tab>
+                </cds-tabs>
+            </div>
             <div class="cds-ce-demo-devenv--tab-panels">
                 <div id="panel-basics" role="tabpanel" aria-labelledby="basics" hidden="">
-                    <div class="video">
-                        <h3>IBM MQ: What is it, and why do developers need it?</h3>
-                        <hr class="videoHr">
-                        <iframe 
-                        src="https://www.youtube.com/embed/ynjc5GMQeRA?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY"
-                        frameborder="0"
-                        allowfullscreen>
-                        </iframe>
-                    </div>
-                    <div>
-                        <h3>Install IBM MQ in a container | Set up messaging software in 4 minutes (Docker)</h3>
-                        <hr class="videoHr">
-                        <iframe 
-                        src="https://www.youtube.com/embed/xBX1P9OUteg?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&index=2"
-                        frameborder="0"
-                        allowfullscreen>
-                        </iframe>
-                    </div>
-                    <div>
-                        <h3>Event-driven & exactly-once messaging to queues & topics | Objects for messaging networks | IBM MQ</h3>
-                        <hr class="videoHr">
-                        <iframe 
-                        src="https://www.youtube.com/embed/zwRvUmIgRJ0?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY" 
-                        frameborder="0" 
-                        allowfullscreen>
-                        </iframe>
-                    </div>
-                    <div>
-                        <h3>Understanding enterprise messaging patterns | Queues, subscribers, request-response | IBM MQ</h3>
-                        <hr class="videoHr">
-                        <iframe src="https://www.youtube.com/embed/U03FslufqxY?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&index=4"
-                        frameborder="0"
-                        allowfullscreen>
-                        </iframe>
+                    <div class="videosGrid">
+                        {% for video in site.data.videos.basics %}
+                            <div class="video">
+                                <h3>{{ video.title }}</h3>
+                                <hr class="videoHr">
+                                <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% endfor %}
                     </div>
                 </div>
                 <div id="panel-advanced" role="tabpanel" aria-labelledby="advanced" hidden="">
-                    Tab Panel 2
+                    <div class="videosGrid">
+                        {% for video in site.data.videos.advanced %}
+                            <div class="video">
+                                <h3>{{ video.title }}</h3>
+                                <hr class="videoHr">
+                                <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% endfor %}
+                    </div>
                 </div>
                 <div id="panel-more" role="tabpanel" aria-labelledby="more" hidden="">
-                    Hello
+                    <div class="videosGrid">
+                        {% for video in site.data.videos.more %}
+                            <div class="video">
+                                <h3>{{ video.title }}</h3>
+                                <hr class="videoHr">
+                                <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>

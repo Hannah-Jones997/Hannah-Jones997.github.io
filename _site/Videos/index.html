@@ -33,51 +33,156 @@
         </div>
         <div id="videosContainer">
             <style>
-                .cds-ce-demo-devenv--tab-panels{flex:1;align-self:stretch;padding:1rem;}
+                .cds-ce-demo-devenv--tab-panels{flex:1;align-self:stretch;padding:3rem;overflow:scroll;max-height:65vh;border-color: #f4f4f4;border-style: solid; border-width:0.5rem;}
             </style>
-            <cds-tabs value="all">
-                <cds-tab id="basics" target="panel-basics" value="basics">
-                    Basics
-                </cds-tab>
-                <cds-tab id="advaced" target="panel-advanced" value="advanced">
-                    Advanced
-                </cds-tab>
-                <cds-tab id="more" target="panel-more" value="more">
-                    More
-                </cds-tab>
-            </cds-tabs>
+            <div id="tabs">
+                <cds-tabs value="basics">
+                    <cds-tab id="basics" target="panel-basics" value="basics">
+                        Basics
+                    </cds-tab>
+                    <cds-tab id="advaced" target="panel-advanced" value="advanced">
+                        Advanced
+                    </cds-tab>
+                    <cds-tab id="more" target="panel-more" value="more">
+                        More
+                    </cds-tab>
+                </cds-tabs>
+            </div>
             <div class="cds-ce-demo-devenv--tab-panels">
                 <div id="panel-basics" role="tabpanel" aria-labelledby="basics" hidden="">
-                    <div class="video">
-                        <h3>IBM MQ: What is it, and why do developers need it?</h3>
-                        <hr class="videoHr" />
-                        <iframe src="https://www.youtube.com/embed/ynjc5GMQeRA?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY" frameborder="0" allowfullscreen="">
-                        </iframe>
-                    </div>
-                    <div>
-                        <h3>Install IBM MQ in a container | Set up messaging software in 4 minutes (Docker)</h3>
-                        <hr class="videoHr" />
-                        <iframe src="https://www.youtube.com/embed/xBX1P9OUteg?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&amp;index=2" frameborder="0" allowfullscreen="">
-                        </iframe>
-                    </div>
-                    <div>
-                        <h3>Event-driven &amp; exactly-once messaging to queues &amp; topics | Objects for messaging networks | IBM MQ</h3>
-                        <hr class="videoHr" />
-                        <iframe src="https://www.youtube.com/embed/zwRvUmIgRJ0?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY" frameborder="0" allowfullscreen="">
-                        </iframe>
-                    </div>
-                    <div>
-                        <h3>Understanding enterprise messaging patterns | Queues, subscribers, request-response | IBM MQ</h3>
-                        <hr class="videoHr" />
-                        <iframe src="https://www.youtube.com/embed/U03FslufqxY?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&amp;index=4" frameborder="0" allowfullscreen="">
-                        </iframe>
+                    <div class="videosGrid">
+                        
+                            <div class="video">
+                                <h3>IBM MQ: What is it, and why do developers need it?</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/ynjc5GMQeRA?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>Install IBM MQ in a container | Set up messaging software in 4 minutes (Docker)</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/xBX1P9OUteg?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&amp;index=2" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>Event-driven &amp; exactly-once messaging to queues &amp; topics | Objects for messaging networks | IBM MQ</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/zwRvUmIgRJ0?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>Understanding enterprise messaging patterns | Queues, subscribers, request-response | IBM MQ</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/U03FslufqxY?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&amp;index=4" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>IBM MQ Console | Control your entire messaging architecture from your web browser</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/gp_ep-xYWfU?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&amp;index=5" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>Messaging APIs | How messaging fits into your code | IBM MQ</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/U8XCxUYeY_k?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&amp;index=6" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
                     </div>
                 </div>
                 <div id="panel-advanced" role="tabpanel" aria-labelledby="advanced" hidden="">
-                    Tab Panel 2
+                    <div class="videosGrid">
+                        
+                            <div class="video">
+                                <h3>Scalability via IBM MQ Uniform Clustering</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/aFygwPuBuQU?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>Assured message delivery with IBM MQ NativeHA</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/NLLfkzxKFA0?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&amp;index=2" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>IBM MQ: The CCDT, explained</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/vJcmDzC4ItM?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&amp;index=3" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>IBM MQ: Request-response variations</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/gqIoBO9o86A?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&amp;index=4" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>IBM MQ: An introduction to Native HA Cross-Region Replication</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/xvukMdiYb-0?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&amp;index=5" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>IBM MQ: CCDTs for Uniform Clusters</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/Ezr2ViznZ50?list=PLzpeuWUENMK0m1HI17sNUObBuRNx2KCkq&amp;index=6" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                    </div>
                 </div>
                 <div id="panel-more" role="tabpanel" aria-labelledby="more" hidden="">
-                    Hello
+                    <div class="videosGrid">
+                        
+                            <div class="video">
+                                <h3>Enterprise Messaging: Unlocking the power of communication for your business</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/3bgyAH2m3KI?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>IBM MQ Messaging Objects: A fun guide to the building blocks of messaging</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/SQKnKKnaGWk?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&amp;index=2" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>IBM MQ Point-to-Point Messaging Pattern: Efficient and reliable communication</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/_KvPGhXrJ0M?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&amp;index=3" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>Publish/Subscribe Messaging: Stay connected with real-time updates</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/BXEHHZYyqXc?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&amp;index=4" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>Request/Response Messaging: Ensuring seamless communication and confirmation</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/2Puq7Jcqc34?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&amp;index=5" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>How IBM MQ on z/OS stores messages</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/AuVzIVasCZM?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&amp;index=6" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>How IBM MQ on z/OS works together with Kafka</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/51hsOgVqUcw?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&amp;index=7" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                            <div class="video">
+                                <h3>What's inside a queue manager running on z/OS?</h3>
+                                <hr class="videoHr" />
+                                <iframe src="https://www.youtube.com/embed/AD__ToQ2bwU?list=PLzpeuWUENMK3aNyKe6xpGETEDhHAqSJ-u&amp;index=8" frameborder="0" allowfullscreen=""></iframe>
+                            </div>
+                        
+                    </div>
                 </div>
             </div>
         </div>
