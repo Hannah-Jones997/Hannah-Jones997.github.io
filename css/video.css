@@ -9,10 +9,12 @@ h2 {
 
 #videosContainer {
     min-height:100%;
+    background-color: #f4f4f4;
 }
 
 #tabs {
     background-color: #f4f4f4;
+    box-shadow: -2px 5px 5px #d1d1d1;
 }
 
 .videosGrid {
@@ -34,6 +36,8 @@ h2 {
 
 .video {
     padding: 1rem;
+    background-color: white;
+    box-shadow: -1px 1px 5px #d1d1d1;
 }
 
 .video iframe {
