@@ -14,7 +14,7 @@ permalink: /Home/
   <div id="main">
   <div id="titleLogo">
     <div id="title">
-        <h1>IBM Messaging</h1>
+        <h1 id="IBMMessaging">IBM Messaging</h1>
         <p id="welcome">Welcome to IBM Messaging on GitHub. Here we provide our collection of IBM-Messaging collateral for you to use and share. Please star repositories so we can see the collateral you find useful.</p>
         <cds-button href="https://github.com/ibm-messaging">Click here to see our collateral for IBM messaging</cds-button>
     </div>
