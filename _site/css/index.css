@@ -6,7 +6,7 @@
 
 #title {
     flex: 0 0 40%;
-    padding: 0 2rem 2rem 2rem;
+    padding: 0 3% 3% 3%;
     font-size: 1.5rem;
     margin: 0;
 }
@@ -71,11 +71,24 @@ a {
 /* 
     -------------------------
     Making it mobile friendly
-    --------------------------
+    -------------------------
 */
 
 @media screen and (max-width: 500px) {
     #MQLogo {
         display: none;
+    }
+
+    #title {
+        align-items: center;
+        text-align: center;
+    }
+
+    #welcome {
+        font-size: 1rem;
+    }
+
+    #startMessage {
+        align-items: center;
     }
 }

@@ -1,3 +1,4 @@
+
 #header {
   display: flex;
   flex-direction: row;
@@ -30,8 +31,8 @@ cds-header::after {
 }
 
 cds-side-nav-link {
-  font-size: 200rem;
-  --cds-body-long-02-line-height: 200rem;
+  --cds-body-long-02-font-size: 10rem;
+  --cds-body-long-02-line-height: 15rem;
 }
 
 /* To change later, adaptive to small screen sizes */
