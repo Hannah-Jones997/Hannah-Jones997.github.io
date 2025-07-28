@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'IBMFont'; /* Name your font family */
-  src: url('../assets/fonts/IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth\,wght.ttf'); /* Locate the .ttf file within your directory*/
+  src: url('../assets/fonts/IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth\,wght.ttf');
 }
 
 body {
     font-family: IBMFont;
 }
 
-#main {
-    padding: 2rem;
+main {
+    margin: 3%;
 }

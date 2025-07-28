@@ -19,14 +19,24 @@
     align-items: baseline;
 }
 
+cds-header::after {
+    background-color: var(--cds-layer-accent-01, #e0e0e0);
+    block-size: 1px;
+    content: "";
+    inline-size: 100vw;
+    inset-block-end: -1px;
+    inset-inline-start: 0px;
+    position: absolute;
+}
+
+cds-side-nav-link {
+  font-size: 200rem;
+  --cds-body-long-02-line-height: 200rem;
+}
+
 /* To change later, adaptive to small screen sizes */
 @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
+  .headerText {
+    display: none;
   }
 }

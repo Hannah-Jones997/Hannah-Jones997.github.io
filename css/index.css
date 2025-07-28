@@ -67,3 +67,15 @@ li {
 a {
     text-decoration: none;
 }
+
+/* 
+    -------------------------
+    Making it mobile friendly
+    --------------------------
+*/
+
+@media screen and (max-width: 500px) {
+    #MQLogo {
+        display: none;
+    }
+}

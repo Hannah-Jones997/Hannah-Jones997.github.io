@@ -2,5 +2,26 @@
   "dependencies": {
     "@carbon/grid": "^11.39.0",
     "@carbon/web-components": "^2.34.0"
-  }
+  },
+  "name": "hannah-jones997.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.89.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hannah-Jones997/Hannah-Jones997.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hannah-Jones997/Hannah-Jones997.github.io/issues"
+  },
+  "homepage": "https://github.com/Hannah-Jones997/Hannah-Jones997.github.io#readme"
 }

@@ -1,13 +1,29 @@
-<link rel="stylesheet" href="../css/header.css">
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/tag/v2/latest/ui-shell.min.js"></script>
+<link rel="stylesheet" href="{{ '/css/headerImport.css' | relative_url }}">
 <header id="header">
     <!-- Navigation Menu -->
-    <nav>
-        <!-- Logo -->
-        <a href="{{ '/Home/' | relative_url }}"><img src="../assets/images/logo.png" alt="IBM Logo" id="logo"></a>
-        <!--Links-->
-        <a href="{{ '/Home/' | relative_url }}">Home</a>
-        <a href="{{ '/Learn/' | relative_url }}">Learn</a>
-        <a href="{{ '/Videos/' | relative_url}}">Videos</a>
-    </nav>
+    <cds-header>
+    <!--Mobile friendly buttons nav items--> 
+
+        <cds-header-menu-button></cds-header-menu-button>
+
+        <cds-header-name href="{{ '/Home/' | relative_url }}" prefix="">
+            <img src="../assets/images/logo.png" alt="IBM Logo" id="logo" />
+        </cds-header-name>
+
+        <cds-header-nav>
+            <cds-header-menu-item href="{{ '/Home/' | relative_url }}">Home</cds-header-menu-item>
+            <cds-header-menu-item href="{{ '/Learn/' | relative_url }}">Learn</cds-header-menu-item>
+            <cds-header-menu-item href="{{ '/Videos/' | relative_url }}">Videos</cds-header-menu-item>
+        </cds-header-nav>
+    </cds-header>
+
+    <cds-side-nav is-not-persistent aria-label="Side navigation" collapse-mode="responsive">
+        <cds-side-nav-items>
+            <cds-side-nav-link href="{{ '/Home/' | relative_url }}">Home</cds-side-nav-link>
+            <cds-side-nav-link href="{{ '/Learn/' | relative_url }}">Learn</cds-side-nav-link>
+            <cds-side-nav-link href="{{ '/Videos/' | relative_url }}">Videos</cds-side-nav-link>
+        </cds-side-nav-items>
+    </cds-side-nav>
+
 </header>
-<hr>

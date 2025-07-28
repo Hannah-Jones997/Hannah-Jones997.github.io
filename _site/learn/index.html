@@ -2,20 +2,37 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/universal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<link rel="stylesheet" href="../css/header.css">
+<script type="module" src="https://1.www.s81c.com/common/carbon/web-components/tag/v2/latest/ui-shell.min.js"></script>
+<link rel="stylesheet" href="/css/headerImport.css">
 <header id="header">
     <!-- Navigation Menu -->
-    <nav>
-        <!-- Logo -->
-        <a href="/Home/"><img src="../assets/images/logo.png" alt="IBM Logo" id="logo"></a>
-        <!--Links-->
-        <a href="/Home/">Home</a>
-        <a href="/Learn/">Learn</a>
-        <a href="/Videos/">Videos</a>
-    </nav>
+    <cds-header>
+    <!--Mobile friendly buttons nav items--> 
+
+        <cds-header-menu-button></cds-header-menu-button>
+
+        <cds-header-name href="/Home/" prefix="">
+            <img src="../assets/images/logo.png" alt="IBM Logo" id="logo" />
+        </cds-header-name>
+
+        <cds-header-nav>
+            <cds-header-menu-item href="/Home/">Home</cds-header-menu-item>
+            <cds-header-menu-item href="/Learn/">Learn</cds-header-menu-item>
+            <cds-header-menu-item href="/Videos/">Videos</cds-header-menu-item>
+        </cds-header-nav>
+    </cds-header>
+
+    <cds-side-nav is-not-persistent aria-label="Side navigation" collapse-mode="responsive">
+        <cds-side-nav-items>
+            <cds-side-nav-link href="/Home/">Home</cds-side-nav-link>
+            <cds-side-nav-link href="/Learn/">Learn</cds-side-nav-link>
+            <cds-side-nav-link href="/Videos/">Videos</cds-side-nav-link>
+        </cds-side-nav-items>
+    </cds-side-nav>
+
 </header>
-<hr>
 <body> 
     <main>
         <div>
