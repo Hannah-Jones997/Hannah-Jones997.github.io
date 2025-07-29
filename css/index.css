@@ -2,8 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 30%;
-    width: 100%;
+    width: 48%;
 }
 
 #title {
@@ -21,9 +20,16 @@
 }
 
 #MQLogo {
-    height: 18rem;
-    width: 18rem;
+    height: 50rem;
+    width: 50rem;
     opacity: 0.9;
+
+    position: absolute;
+    top: -100px;
+    right: -200px;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: -1;
 }
 
 #welcome {
@@ -33,23 +39,32 @@
 #startResources {
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 8%;
     padding: 2rem;
 }
 
 #startMessage {
+    margin-top: 3%;
     text-align: center;
 }
 
 #resource {
     flex: 1;
+    max-width: 20%;
     text-align: center;
-    background-color: #f4f4f4;
-    box-shadow: 1px 1px 5px #d1d1d1;
+    background-color: #fcfcfc;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 12px rgba(15, 98, 254, 0.08);
     padding: 0 3% 3% 3%;
 }
 
 #resource:hover {
+
+}
+
+.pictogram {
+    width: 2rem;
+    height: 2rem;
 }
 
 #resourceTitle {
@@ -67,7 +82,7 @@
 }
 
 #pathLink {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: #161616;
     margin: 5% 0 5% 0;
@@ -89,9 +104,8 @@ li {
 }
 
 .pageLink {
-    text-align: start;
-    color:#0f62fe;
     font-size: 1.2rem;
+    align-items: bottom;
 }
 
 #linkButtons {

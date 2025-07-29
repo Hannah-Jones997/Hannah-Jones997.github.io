@@ -7,6 +7,8 @@ body {
     font-family: IBMFont;
     background: linear-gradient(135deg, #f4f4f4 0%, #fbfcfe 100%);
     background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 body::before,
@@ -26,9 +28,9 @@ body::before {
 }
 
 body::after {
-  width: 250px;
-  height: 250px;
-  bottom: -80px;
+  width: 340px;
+  height: 320px;
+  bottom: -120px;
   right: -80px;
 }
 
