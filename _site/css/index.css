@@ -49,6 +49,11 @@
     padding: 0 3% 3% 3%;
 }
 
+#resource:hover {
+  background-color: #e5e5e5;
+  font-size: 18px;
+}
+
 #resourceTitle {
     display: flex;
     gap: 1rem;
@@ -63,6 +68,14 @@
     float:left;
 }
 
+#pathLink {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #161616;
+    margin: 5% 0 5% 0;
+    text-decoration: none;
+}
+
 #resourceHr {
     margin-top: 0%;
 }
@@ -73,8 +86,20 @@ li {
     padding-top: 2%;
 }
 
-a {
-    text-decoration: none;
+#resourceText {
+    text-align: start;
+}
+
+.pageLink {
+    text-align: start;
+    color:#0f62fe;
+    font-size: 1.2rem;
+}
+
+#linkButtons {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
 }
 
 /* 

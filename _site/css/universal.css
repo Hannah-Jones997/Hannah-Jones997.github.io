@@ -5,6 +5,31 @@
 
 body {
     font-family: IBMFont;
+    background: linear-gradient(135deg, #f4f4f4 0%, #f3f6fd 100%);
+    background-attachment: fixed;
+}
+
+body::before,
+body::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(15, 98, 254, 0.05);
+  z-index: -1;
+}
+
+body::before {
+  width: 300px;
+  height: 300px;
+  top: -100px;
+  left: -100px;
+}
+
+body::after {
+  width: 250px;
+  height: 250px;
+  bottom: -80px;
+  right: -80px;
 }
 
 main {

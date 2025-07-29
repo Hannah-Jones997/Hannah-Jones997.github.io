@@ -30,11 +30,6 @@ cds-header::after {
     position: absolute;
 }
 
-cds-side-nav-link {
-  --cds-body-long-02-font-size: 10rem;
-  --cds-body-long-02-line-height: 15rem;
-}
-
 /* To change later, adaptive to small screen sizes */
 @media screen and (max-width: 500px) {
   .headerText {
