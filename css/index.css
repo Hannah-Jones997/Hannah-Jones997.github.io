@@ -1,19 +1,23 @@
 #titleLogo {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 35rem;
+    gap: 30%;
+    width: 100%;
 }
 
 #title {
-    flex: 0 0 40%;
+    flex: 1 1 40%;
     padding: 0 3% 3% 3%;
     font-size: 1.5rem;
     margin: 0;
     height:fit-content;
+    flex-wrap: wrap;
 }
 
 #IBMMessaging {
     font-size: 3rem;
+    flex-wrap: wrap;
 }
 
 #MQLogo {
@@ -80,9 +84,6 @@ a {
 */
 
 @media screen and (max-width: 500px) {
-    #MQLogo {
-        display: none;
-    }
 
     #title {
         align-items: center;
@@ -100,4 +101,12 @@ a {
     #startMessage {
         align-items: center;
     }
+}
+
+@media screen and (max-width: 1000px) {
+
+    #MQLogo {
+        display: none;
+    }
+
 }
