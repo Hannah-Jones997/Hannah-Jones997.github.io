@@ -1,7 +1,4 @@
 basics:
-  - title: "IBM MQ: What is it, and why do developers need it?"
-    url: "https://www.youtube.com/embed/ynjc5GMQeRA?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY"
-
   - title: "Install IBM MQ in a container | Set up messaging software in 4 minutes (Docker)"
     url: "https://www.youtube.com/embed/xBX1P9OUteg?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY&index=2"
 
