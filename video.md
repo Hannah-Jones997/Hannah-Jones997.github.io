@@ -18,7 +18,7 @@ permalink: /Videos/
             <p>On this page you can find our collection of youtube videos all about the MQ system</p>
         </div>
         <div id="search">
-            <cds-search size="lg" close-button-label-text="Clear search input" label-text="Search" placeholder="Find your items" type="text"></cds-search>
+            <cds-search id="videoSearch" size="lg" close-button-label-text="Clear search input" label-text="Search" placeholder="Find your items" type="text"></cds-search>
         </div>
         <div id="videosContainer">
             <style>
@@ -39,7 +39,9 @@ permalink: /Videos/
             </div>
             <div class="cds-ce-demo-devenv--tab-panels">
                 <div id="panel-basics" role="tabpanel" aria-labelledby="basics" hidden="">
-                    <div class="mainVideo">
+                    <div>
+                    </div>
+                    <div id="mainVideo">
                         <iframe src="https://www.youtube.com/embed/ynjc5GMQeRA?list=PLzpeuWUENMK0wwvvZON-kbY7BCLk_aCwY" frameborder="0" allowfullscreen></iframe>
                         <div class="text">
                             <h3>IBM MQ: What is it, and why do developers need it?</h3>
@@ -47,7 +49,7 @@ permalink: /Videos/
                     </div>
                     <div class="videosGrid">
                         {% for video in site.data.videos.basics %}
-                            <div class="video">
+                            <div class="video" data-title="{{ video.title | downcase }}">
                                 <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
                                 <h3>{{ video.title }}</h3>
                             </div>
@@ -57,7 +59,7 @@ permalink: /Videos/
                 <div id="panel-advanced" role="tabpanel" aria-labelledby="advanced" hidden="">
                     <div class="videosGrid">
                         {% for video in site.data.videos.advanced %}
-                            <div class="video">
+                            <div class="video" data-title="{{ video.title | downcase }}">
                                 <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
                                 <h3>{{ video.title }}</h3>
                             </div>
@@ -67,7 +69,7 @@ permalink: /Videos/
                 <div id="panel-more" role="tabpanel" aria-labelledby="more" hidden="">
                     <div class="videosGrid">
                         {% for video in site.data.videos.more %}
-                            <div class="video">
+                            <div class="video" data-title="{{ video.title | downcase }}">
                                 <iframe src="{{ video.url }}" frameborder="0" allowfullscreen></iframe>
                                 <h3>{{ video.title }}</h3>
                             </div>
@@ -77,4 +79,5 @@ permalink: /Videos/
             </div>
         </div>
     </div>
+    <script src="/js/search.js"></script>
 </body>

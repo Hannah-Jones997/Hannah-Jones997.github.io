@@ -17,7 +17,7 @@ h2 {
 }
 
 
-.mainVideo {
+#mainVideo {
     display: flex;
     align-items: center;   
     justify-content: space-between;
@@ -31,13 +31,13 @@ h2 {
     margin-bottom: 5rem;
 }
 
-.mainVideo iframe {
+#mainVideo iframe {
     width: 50%;
     aspect-ratio: 16 / 9;
     border-radius: 10px;
 }
 
-.mainVideo h3 {
+#mainVideo h3 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
