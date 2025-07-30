@@ -26,7 +26,7 @@ permalink: /
   <div id="startResources">
     <div id="resource">
         <div id="resourceTitle">
-          <img src="/assets/images/ibm--knowledge-catalog-standard.svg" >  
+          <img src="/assets/images/ibm--knowledge-catalog-standard.svg" >
           <a href="{{ '/Learn/' | relative_url }}" id="pathLink">Why MQ</a>
         </div>
         <hr id="resourceHr">

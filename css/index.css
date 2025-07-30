@@ -134,6 +134,15 @@ li {
     #startMessage {
         align-items: center;
     }
+
+    #startResources {
+        flex-direction: column;
+    }
+
+    #resource {
+        max-width: 100%;
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 1000px) {
