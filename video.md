@@ -18,7 +18,7 @@ permalink: /Videos/
             <p>On this page you can find our collection of youtube videos all about the MQ system</p>
         </div>
         <div id="search">
-            <cds-search id="videoSearch" size="lg" close-button-label-text="Clear search input" label-text="Search" placeholder="Find your items" type="text"></cds-search>
+            <cds-search id="videoSearch" size="lg" close-button-label-text="Clear search input" label-text="Search" placeholder="Find your video" type="text"></cds-search>
         </div>
         <div id="videosContainer">
             <style>
