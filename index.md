@@ -27,34 +27,34 @@ permalink: /
     <div id="resource">
         <div id="resourceTitle">
           <img src="/assets/images/ibm--knowledge-catalog-standard.svg" >
-          <a href="{{ '/Learn/' | relative_url }}" id="pathLink">Why MQ</a>
+          <a href="{{ '/Learn/?tab=whyMQ' | relative_url }}" id="pathLink">Why MQ</a>
         </div>
         <hr id="resourceHr">
         <p id="resourceText">Find out all about MQ systems and why they could help you</p>
         <div class="pageLink">
-          <cds-button href="{{ '/Learn/' | relative_url }}">Get started</cds-button>
+          <cds-button href="{{ '/Learn/?tab=whyMQ' | relative_url }}">Get started</cds-button>
         </div>
     </div>
     <div id="resource">
         <div id="resourceTitle">
           <img src="/assets/images/terminal.svg" class="pictogram">
-          <a href="{{ '/Learn' | relative_url }}" id="pathLink">I'm a developer</a>
+          <a href="{{ '/Learn/?tab=developer' | relative_url }}" id="pathLink">I'm a developer</a>
         </div>
         <hr id="resourceHr">
         <p id="resourceText">Find out more about integrating MQ systems into your application</p>
         <div class="pageLink">
-          <cds-button href="{{ '/Learn/' | relative_url }}">Get started</cds-button>
+          <cds-button href="{{ '/Learn/?tab=developer' | relative_url }}">Get started</cds-button>
         </div>
     </div>
     <div id="resource">
         <div id="resourceTitle">  
           <img src="/assets/images/sustainability.svg" class="pictogram">
-          <a href="{{ '/Learn/' | relative_url }}" id="pathLink">MQ ecosystem</a>
+          <a href="{{ '/Learn/?tab=ecosystem' | relative_url }}" id="pathLink">MQ ecosystem</a>
         </div>
         <hr id="resourceHr">
         <p id="resourceText">Learn all about the MQ ecosystem</p>
         <div class="pageLink">
-          <cds-button href="{{ '/Learn/' | relative_url }}">Get started</cds-button>
+          <cds-button href="{{ '/Learn/?tab=ecosystem' | relative_url }}">Get started</cds-button>
         </div>
     </div>
   </div>
@@ -62,4 +62,5 @@ permalink: /
     <cds-button href="{{ '/Learn/' | relative_url }}" kind="tertiary">Click here to see all our learning resources</cds-button>
   </div>
   </div>
+  <script src="/js/fadeIn.js"></script>
 </body>

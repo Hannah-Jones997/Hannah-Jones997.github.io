@@ -56,6 +56,15 @@
     border: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 4px 12px rgba(15, 98, 254, 0.08);
     padding: 0 3% 3% 3%;
+
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+#resource.show {
+    opacity: 1;
+    transform: translateY(0); 
 }
 
 .pictogram {
@@ -125,6 +134,7 @@ li {
 
     #titleLogo {
         gap: 0;
+        width: 100%;
     }
 
     #welcome {

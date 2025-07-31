@@ -80,4 +80,5 @@ permalink: /Videos/
         </div>
     </div>
     <script src="/js/search.js"></script>
+    <script src="/js/fadeIn.js"></script>
 </body>

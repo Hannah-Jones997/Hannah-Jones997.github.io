@@ -2,13 +2,12 @@
   font-family: 'IBMFont';
   src: url('../assets/fonts/IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth\,wght.ttf');
 }
-
 body {
   font-family: IBMFont;
   background: linear-gradient(135deg, #f4f4f4 0%, #fbfcfe 100%);
   background-attachment: fixed;
   overflow-x: hidden;
-  width: screen;
+  width: 100%;
 }
 
 body::before,
